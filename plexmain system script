@@ -1,3 +1,1 @@
-filebot.exe -script fn:amc --output "H:\Temp\excludelist" --log-file amc.log --action copy -non-strict "H:/Finished"  --def excludeList=amc.txt --lang en --def "seriesFormat=F:/TV Shows/{n}/{'Season '+s}/{n} - {s00e00} - {t}" "movieFormat=G:/Movies/{n} [{y}]/{n} [{y}] {vf}
-
-"C:/Program Files/FileBot/filebot.exe" -script fn:amc --output "H:\Temp\excludelist" --log-file amc.log --action copy -non-strict "H:/Finished"  --def excludeList=amc.txt --lang en --def "seriesFormat=F:/TV Shows/{n}/{'Season '+s}/{n} - {s00e00} - {t}" "movieFormat=G:/Movies/{n} [{y}]/{n} [{y}] {vf}
+"C:/Program Files/FileBot/filebot.exe" -script fn:amc --output "H:\Temp\excludelist" --log-file amc.log --action copy -non-strict "H:/Finished"  --def excludeList=amc.txt --lang en --def music=y --def subtitles=en --def extras=y --conflict auto --def plex=host:VSLdGtunXQRJZGTE8mry --def unsorted=y --def "seriesFormat=F:/{plex}" "movieFormat=G:/{plex}" "musicFormat="G:/{plex}"
